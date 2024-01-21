@@ -94,7 +94,29 @@ class Reservation {
         return pnr;
     }
 
-    // Getters for other fields
+    public String gettrainNumber() {
+        return trainNumber;
+    }
+
+    public String gettrainName() {
+        return trainName;
+    }
+
+    public String getclassType() {
+        return classType;
+    }
+
+    public String getdateOfJourney() {
+        return dateOfJourney;
+    }
+
+    public String getfrom() {
+        return from;
+    }
+
+    public String getto() {
+        return to;
+    }
 
     @Override
     public String toString() {
